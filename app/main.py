@@ -14,3 +14,4 @@ def fill_tank(customer: dict, fuel_price: float, amount: float = None):
     customer["vehicle"]["fuel_remains"] += required_amount
     customer["money"] = round(
         customer["money"] - round(required_amount * fuel_price, 2), 2)
+
