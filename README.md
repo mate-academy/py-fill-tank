@@ -24,6 +24,6 @@ fuel and withdraws money, following the next rules:
 - If the amount is not given, then full tank is ordered.
 - If the amount is greater than the tank can accommodate, pour only what will fit.
 - ALWAYS fill in only what the client can pay.
-- Round the poured amount to 1 decimal.
+- Floor the poured amount to 1 decimal.
 - If the poured amount is less than 2 liters, do not pour at all.
 - Round the price of the purchased fuel the to 2 decimals.
