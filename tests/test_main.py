@@ -1,7 +1,7 @@
 from app.main import fill_tank
 
 
-def test_standard():
+def test_enough_money_and_capacity_amount_given():
     customer = {
         "money": 3000,
         "vehicle": {
