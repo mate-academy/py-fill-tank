@@ -56,9 +56,9 @@ def test_money_not_enough():
     }
 
     fill_tank(customer, 4.65, 10)
-    assert customer["money"] == -0.23000000000000043
+    assert customer["money"] == 0.24
     assert customer["vehicle"]["max_tank_capacity"] == 40
-    assert customer["vehicle"]["fuel_remains"] == 11.5
+    assert customer["vehicle"]["fuel_remains"] == 11.4
 
 
 def test_les_then_two_litters():
