@@ -61,7 +61,7 @@ def test_should_round_poured_to_1_decimal():
     assert customer["vehicle"]["fuel_remains"] == 20.7
 
 
-def test_should_not_pour_if_amount_si_less_than_2_litters():
+def test_should_not_pour_if_amount_is_less_than_2_litters():
     customer = {
         "money": 20,
         "vehicle": {
